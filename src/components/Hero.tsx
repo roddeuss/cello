@@ -29,7 +29,6 @@ export default function Hero({
 
   // ===== ayat (boleh tetap pakai versi kamu) =====
   const verses = [
-    { ref: "Amsal 19:14", text: "Rumah dan harta adalah warisan dari nenek moyang, tetapi istri yang berakal budi adalah karunia TUHAN." },
     { ref: "Kidung Agung 8:6–7", text: "Taruhlah aku seperti meterai pada hatimu... air yang banyak tak dapat memadamkan cinta." },
     { ref: "1 Yohanes 4:18–19", text: "Di dalam kasih tidak ada ketakutan... Kita mengasihi, karena Allah lebih dahulu mengasihi kita." },
     { ref: "Filipi 2:2–4", text: "Sehati sepikir, satu kasih, satu tujuan... perhatikan juga kepentingan orang lain." },
@@ -140,7 +139,7 @@ export default function Hero({
         >
           <div className="rounded-2xl bg-white/80 p-5 shadow ring-1 ring-rose-100">
             <div className="mb-2 text-rose-700">
-              <span className="text-sm font-semibold">Ayat untuk pasangan yang serius menuju pernikahan</span>
+              <span className="text-sm font-semibold">Ayat untuk Kita Berdua</span>
             </div>
 
             <div className="relative min-h-[88px]">
