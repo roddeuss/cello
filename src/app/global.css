@@ -1,0 +1,32 @@
+/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ===== Custom kecil biar rapi ===== */
+:root {
+  --card-bg: #ffffff;
+}
+html, body { height: 100%; }
+
+/* Shadow & hover halus untuk card timeline */
+.timeline-card {
+  @apply rounded-xl bg-white p-4 shadow transition-shadow duration-300;
+}
+.timeline-card:hover {
+  @apply shadow-lg;
+}
+
+/* Badge titik timeline */
+.timeline-dot {
+  @apply absolute -start-3.5 mt-1.5 h-7 w-7 rounded-full border-4 border-white bg-rose-500;
+}
+
+/* Gambar timeline */
+.timeline-img {
+  @apply mt-3 overflow-hidden rounded-lg;
+}
+.timeline-img > img {
+  @apply w-full h-48 object-cover transition-transform duration-500;
+}
+.timeline-img:hover > img { transform: scale(1.05); }
